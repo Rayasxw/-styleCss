@@ -1,0 +1,68 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/antd/4.16.13/antd.min.css';
+
+body {
+    background-image: url('https://user-images.githubusercontent.com/43012445/105452071-411e4880-5c43-11eb-8ae2-4de61f310bf9.gif');
+    color: white;
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 70px;
+    height: 70px;
+}
+.title {
+    font-size: 32px;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
+}
+.wrapper {
+    width: 1260px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 1px 5px 10px #888888be;
+    border-radius: 10px;
+    background-color: rgba(201, 201, 201, 0.192);
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    & input {
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+        padding-left: 20px;
+        margin-bottom: 40px;
+    }
+    & p {
+        font-weight: 600;
+    }
+    & button {
+        width: 400px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid white;
+        background-color: rgba(12, 23, 44, 0.692);
+        margin-bottom: 20px;
+    }
+    & button:hover {
+        background-color: rgba(16, 33, 56, 0.575);
+        color: rgba(4, 13, 31, 0.884);
+    }
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
