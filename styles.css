@@ -45,6 +45,7 @@ main {
         border-radius: 10px;
         padding-left: 20px;
         margin-bottom: 40px;
+        color: black;
     }
     & p {
         font-weight: 600;
